@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+</head>
+<body>
+    <div>
+        <a href="index.html">Home</a><br><br>
+        <form id="postform" action="javascript:loadBtn()" method="post">
+            <table>
+                <tr>
+                    <td><label for="">Name: </label></td>
+                    <td><input type="text" name="name"/></td>
+                </tr>
+                <tr>
+                    <td><label for="">Description: </label></td>
+                    <td><input type="text" name="description" /></td>
+                </tr>
+                <tr>
+                    <td><label for="">Price: </label></td>
+                    <td><input type="text" name="price" /></td>
+                </tr>
+                <tr>
+                    <td><label for="">Quantity: </label></td>
+                    <td><input type="text" name="qty" /></td>
+                </tr>
+            </table>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="post.js"></script>
+</body>
+</html>

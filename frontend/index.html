@@ -1,0 +1,24 @@
+<html>
+<head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+      </style>
+</head>
+<body>
+   <a href="index.html">Home</a>
+   <a href="post.html">Post</a>
+   <div id="search">
+      <form id="searchform" action="javascript:show()" method="get" name="searchform">
+         <input type="text" id="searchfield" name="searchfield" value="" />
+         <button type="submit" id="searchbutton" value="">Submit</button>
+     </form>
+</div>
+<div id="tablediv"></div>
+<div id="searchedNum"></div>
+<script src="get.js"></script>
+
+</body>
+</html>
